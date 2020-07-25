@@ -72,3 +72,24 @@ Bob,Alice,Sue
 Yes,No,Yes
 No,,Yes
 ```
+
+## binary install (by wget)
+
+for mac binary
+```
+$ wget https://github.com/naototty/xlsx2csv-go-cli/releases/download/v0.1/xlsx2csv-go-darwin64 -O xlsx2csv-go-darwin64; chmod +x xlsx2csv-go-darwin64
+
+MacBook-Pro:testdata chroum$ ./xlsx2csv-go-darwin64
+./xlsx2csv-go-darwin64
+	dumps the given xlsx file's chosen sheet as a CSV,
+	with the specified delimiter, into the specified output.
+
+Usage:
+	./xlsx2csv-go-darwin64 [flags] <xlsx-to-be-read>
+  -d string
+    	Delimiter to use between fields(TAB is tab) (default ",")
+  -i int
+    	Index of sheet to convert, zero based
+  -o string
+    	filename to output to. -=stdout (default "-")
+```
