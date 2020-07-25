@@ -10,7 +10,7 @@ Run `build.sh` to build the executable using Docker.
 this CLI is based on https://github.com/colinmollenhour/xlsx2csv
 and original is https://github.com/tealeg/xlsx2csv
 
-originalを改変したものです
+originalからforkした"colinmollenhour/xlsx2csv"を改変したものです
 
 ## how to use 
 
