@@ -1,0 +1,20 @@
+{
+  "name": "xlsx2csv-go",
+  "version": "1.1.3",
+  "description": "xlsx to csv exporting tool",
+  "main": "xlsx2csv",
+  "scripts": {
+    "release": "./scripts/release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naototty/xlsx2csv-go.git"
+  },
+  "keywords": [ "xlsx2csv", "csv", "xlsx" ],
+  "author": "Naoto Gohko <chroum@gmail.com> (http://blog.docodemo-conoha.red/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naototty/xlsx2csv-go/issues"
+  },
+  "homepage": "https://github.com/naototty/xlsx2csv-go#readme"
+}
