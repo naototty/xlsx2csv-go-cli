@@ -77,7 +77,8 @@ No,,Yes
 
 for mac binary
 ```
-$ wget https://github.com/naototty/xlsx2csv-go-cli/releases/download/v0.1/xlsx2csv-go-darwin64 -O xlsx2csv-go-darwin64; chmod +x xlsx2csv-go-darwin64
+$ wget https://github.com/naototty/xlsx2csv-go-cli/releases/download/v0.1/xlsx2csv-go-darwin64 -O xlsx2csv-go-darwin64;
+chmod +x xlsx2csv-go-darwin64
 
 MacBook-Pro:testdata chroum$ ./xlsx2csv-go-darwin64
 ./xlsx2csv-go-darwin64
